@@ -1,0 +1,126 @@
+/* ipad pro */
+@media (max-width:1239px) and (min-width:1023px)
+{
+    .list_head
+    {
+        height: 100px;
+    }
+    .list_product--end >button
+    {
+        margin-right: 15% !important;
+        margin-top: 15px;
+    }
+    .list_product--end >p
+    {
+        
+    }
+    .list_formDDandinfor--title
+    {
+        font-size: 26px;
+    }
+}
+
+@media (max-width:1240px)
+{
+    .searchblock
+    {
+       
+    }
+    .list_nav >Select
+    {
+        flex: 2 !important;
+    }
+     /* 8x land2 */
+    .list_sendRequest--item,.list_sendRequest--area
+    {
+        margin: 20px 5% 20px 5px !important;
+    }
+        .list_sendRequest--item>label
+        {
+            width: 100%;
+            flex: 1 !important;
+        }
+        .list_sendRequest--area>label
+        {
+            
+        }
+        .list_sendRequest--form 
+        {
+            flex:  5.5 !important;
+        }
+}
+
+@media (max-width:600px)
+{
+    .list_nav >p
+    {
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width:740px)
+{
+    .list_head
+    {
+        
+    }
+    .list_head-block >h2
+    {
+        top: 0px !important;
+        font-size: 26px;
+        margin-top: 6px;
+    }
+    .list_nav >p
+    {
+        margin-right: 2px;
+    }
+    .pagination>li
+    {
+        display: block;
+        max-width: 50px;
+        width: 100%;
+    }
+    .list_formDDandinfor--title
+    {
+        font-size: 20px;
+    }
+    /* 8x land2 */
+    .list_formDDandinfor
+    {
+        display: block !important;
+    }
+    .list_formDDandinfor--item
+    {
+        margin: 30px 0;
+    }
+    .list_product--item
+    {
+        margin-left: 5px !important;
+    }
+    .list_share
+    {
+        display: block !important;
+    }
+    .loaibatdongsan>label
+    {
+        max-width: 61px !important;
+    }
+    .list_sendRequest--item,.list_sendRequest--area
+    {
+        /* margin: 20px 5% 20px 5px !important; */
+    }
+        .list_sendRequest--item>label
+        {
+            width: 100%;
+            flex: 2 !important;
+        }
+        .list_sendRequest--area>label
+        {
+            flex: 1.8 !important;
+            margin-left: -8px;
+        }
+        .list_sendRequest--form 
+        {
+            flex:  5 !important;
+        }
+}
