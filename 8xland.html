@@ -11,6 +11,7 @@
     <link rel="icon" href="https://8xland.com/images/favicon.ico">
     <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css" />
     <link href="./8xland/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./8xland/reponsive.css">
 <link href="./8xland/bootstrap-theme.min.css" rel="stylesheet">
 <link href="./8xland/icons.css" rel="stylesheet">
@@ -25,6 +26,7 @@
 <script src="./8xland/jquery-migrate-3.1.0.min.js.download"></script>
 <script src="./8xland/ConsVar.js.download"></script>
 <script src="./8xland/bootstrap.min.js.download"></script>
+
 
 </head>
 <body>
@@ -291,7 +293,7 @@
 
 <div class="startbody">
     <div class="row">
-        <div class="col-md-8">
+        <div class="main col-md-8">
             <div class="list">
                 <div class="list_head">
                     <div class="list_head-block">
@@ -476,15 +478,9 @@
                           <li class="page-item"><a class="page-link" href="#">3</a></li>
                           <li class="page-item"><a class="page-link" href="#">4</a></li>
                           <li class="page-item"><a class="page-link" href="#">5</a></li>
-                          <li class="page-item"><a class="page-link" href="#">6</a></li>
-                          <!-- <li class="page-item"><a class="page-link" href="#">7</a></li>
-                          <li class="page-item"><a class="page-link" href="#">8</a></li>
-                          <li class="page-item"><a class="page-link" href="#">9</a></li> -->
-                          <!-- <li class="page-item"><a class="page-link" href="#">10</a></li>
-                          <li class="page-item"><a class="page-link" href="#">11</a></li> -->
                           <li class="page-item"><a class="page-link" href="#">Next</a></li>
                         </ul>
-                      </nav>
+                      </nav>              
                 </div>
             </div>
         </div>
@@ -494,7 +490,7 @@
                 <div class="search_item">
                     <input type="text" placeholder="Nhập từ khóa, vd: Căn hộ vinhomes...">
                 </div>
-                <Select class="search_item" ">
+                <Select class="search_item">
                     <option value="volvo">--Loại tin đăng--</option>
                 </Select>
                 <Select class="search_item">
@@ -526,38 +522,57 @@
                     <p class="search2_title--thuemua">CẦN THUÊ/MUA</p>
                     <p class="search2_title--kigui">KÝ GỬI</p>
                 </div>
-                <div class="search_item2">
-                    <input type="text" placeholder="Mục đích sử dụng (Ở, Loại hình kinh doanh....vv)(*)">
+                <div class="blockThuemua">
+                    <div class="search_item2">
+                        <input type="text" placeholder="Mục đích sử dụng (Ở, Loại hình kinh doanh....vv)(*)">
+                    </div>
+                    <div class="search_item2">
+                        <input type="text" placeholder="Mở thêm điểm KD hay mở mới (*)">
+                    </div>
+                    <div class="search_item2">
+                        <input type="text" placeholder="Tên phố quan tâm (*)">
+                    </div>
+                    <div class="search_item2">
+                        <input type="text" placeholder="Diện tích tối thiểu/sàn (*)">
+                    </div>
+                    <div class="search_item2">
+                        <input type="text" placeholder="Mặt tiền tối thiểu (*)">
+                    </div>
+                    <div class="search_item2">
+                        <input type="text" placeholder="Số tầng tối thiểu (*)">
+                    </div>
+                    <div class="search_item2">
+                        <input type="text" placeholder="Giá tối đa (*)">
+                    </div>
+                    <div class="search_item2--mes">
+                        <textarea rows="5" placeholder="Yêu cầu khác: Vỉa hè, Riêng biệt, Tiện ích, Hướng, Gần nhiều tòa nhà văn phòng...vv(*)"></textarea>
+                    </div>
+                    <div class="search_item2">
+                        <input type="text" placeholder="Họ tên (*)">
+                    </div>
+                    <div class="search_item2">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="search_item2--btn">
+                        <button class="btnGuiyc">GỬI YÊU CẦU</button>
+                    </div>
                 </div>
-                <div class="search_item2">
-                    <input type="text" placeholder="Mở thêm điểm KD hay mở mới (*)">
-                </div>
-                <div class="search_item2">
-                    <input type="text" placeholder="Tên phố quan tâm (*)">
-                </div>
-                <div class="search_item2">
-                    <input type="text" placeholder="Diện tích tối thiểu/sàn (*)">
-                </div>
-                <div class="search_item2">
-                    <input type="text" placeholder="Mặt tiền tối thiểu (*)">
-                </div>
-                <div class="search_item2">
-                    <input type="text" placeholder="Số tầng tối thiểu (*)">
-                </div>
-                <div class="search_item2">
-                    <input type="text" placeholder="Giá tối đa (*)">
-                </div>
-                <div class="search_item2--mes">
-                    <textarea rows="5" placeholder="Yêu cầu khác: Vỉa hè, Riêng biệt, Tiện ích, Hướng, Gần nhiều tòa nhà văn phòng...vv(*)"></textarea>
-                </div>
-                <div class="search_item2">
-                    <input type="text" placeholder="Họ tên (*)">
-                </div>
-                <div class="search_item2">
-                    <input type="text" placeholder="Email">
-                </div>
-                <div class="search_item2--btn">
-                    <button class="btnGuiyc">GỬI YÊU CẦU</button>
+                <div class="blockKiGui">
+                    <div class="search_item2">
+                        <input type="text" placeholder="Gửi tới: dinhson@gmail.com">
+                    </div>
+                    <div class="search_item2--mes">
+                        <textarea rows="5" placeholder=""></textarea>
+                    </div>
+                    <div class="search_item2">
+                        <input type="text" placeholder="Chủ đề (*)">
+                    </div>
+                    <div class="search_item2">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="search_item2--btn">
+                        <button class="btnGuiyc">GỬI</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -766,7 +781,6 @@
     </div>
 
 
-
     <script src="./8xland/chosen.min.js.download"></script>
 <script src="./8xland/magnific-popup.min.js.download"></script>
 <script src="./8xland/owl.carousel.min.js.download"></script>
@@ -781,7 +795,7 @@
 <script src="./8xland/dropzone.js.download"></script>
 <script src="./8xland/custom.js.download"></script>
 <script src="./8xland/main_custom.js.download"></script>
-    
+<script src="./main.js" ></script>   
 
 
 </body><div id="tiptip_holder" style="max-width:200px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div></html>

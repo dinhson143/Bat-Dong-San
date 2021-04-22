@@ -1,12 +1,3 @@
-@media (min-width: 1367px)
-{
-    .startbody {
-        width: 1800px;
-    }
-}
-
-
-
 
 .startbody
 {
@@ -18,12 +9,15 @@
         padding-right: 15px;
     margin-top: 15px;
 }
+.main
+{
+    padding-left: 45px;
+}
     .list
     {
         height: 100%;
         box-shadow: 0 0 30px #ccc;
         padding: 5px 0;
-        margin: 50px 0;
     }
     .list_head
     {
@@ -34,9 +28,8 @@
             display: flex;
             border-bottom: 3px solid hsl(126deg 49% 43%);
             margin-left: 10px;
-            margin-right: 10px;
-            position: relative;
-            
+            margin-right: 10px; 
+            height: 100%;         
         }
             .list_head-block >i
             {
@@ -52,11 +45,6 @@
                 color: rgb(12 77 161);
                 font-weight: bolder;
                 line-height: 1.1;
-                /* position: absolute; */
-                left: 55px;
-                top: 8px;
-                right: 13px;
-                height: 100%;
             }
         .list_nav
         {
@@ -165,9 +153,7 @@
             .list_product--end
             {
                 display: flex;
-                margin: 10px 0 15px 0;
-                margin-left: 10px;
-                margin-right: 10px;
+                margin: 10px 10px;
             }
                 .list_product--end >button
                 {
@@ -175,40 +161,39 @@
                     color:#fff;
                     font-size: 18px;
                     font-weight: 500;
-                    max-width: 100px;
-                    width: 100%;
-                    margin-right: 43%;
-                    border-radius: 1px;
+                    flex: 1;
+                    border-radius: 3px;
                     
                 }
                 .list_product--end >p
                 {
-                   justify-content: right;
                    margin-top: 15px;
+                   flex: 1;
+                   font-size: 15px;
+                   text-align: right;
+                   
                 }
         .list_phantrang
         {
-            margin-top: 15px;
-            
+            margin: 30px 0;
+            text-align: center;
         }
             .pagination
             {
-                display: flex;
-                justify-content: center;
+                margin: 0 5px;
             }
-            .pagination>li
+            /* .pagination>li
             {
                 max-width: 50px;
                 width: 100%;
                 list-style: none;
-                margin: 5px 1px;
                 padding: 10px 10px;
                 font-weight: 500;
                 background-color: #fff;
-                border: 1px solid rgb(12 77 161);
+                border-right: 1px solid rgb(12 77 161);
                 font-size: 13px;
-            }
-                .page-link
+            } */
+                /* .page-link
                 {
                     color: rgb(12 77 161);
                 }
@@ -216,9 +201,11 @@
                 {
                     text-decoration: none;
                     color: red;
-                }
+                } */
     .search
     {
+        padding-right: 45px;
+        padding-left: 10px;
     }
         .searchblock
         {
@@ -226,7 +213,7 @@
             height: 100%;
             box-shadow: 0 0 2px #000;
             float: right;
-            margin-bottom: 50px;
+            margin-top: 30px;
         }
         .search_title
         {
@@ -278,6 +265,7 @@
                 font-weight: 500;
                 text-shadow: 0 0 1px #000;
                 justify-content: right;
+                border-radius: 3px;
             }
             /* search 2 */
             .search2_title
@@ -297,6 +285,13 @@
                     margin-bottom: 0;
                     line-height: 2;
                 }
+                .search2_title--thuemua:hover,.search2_title--kigui:hover
+                {
+                    cursor: pointer;   
+                    background-color: rgb(255, 0, 0);
+                    opacity: 0.8;   
+                    color: #000;             
+                }
                 .search2_title--kigui
                 {
                     flex: 1;
@@ -309,6 +304,14 @@
                     line-height: 2;
                     border: 1px solid #ccc;
                 }
+        .blockThuemua
+        {
+            
+        }
+        .blockKiGui
+        {
+            display: none;
+        }
             .search_item2,.search_item2--mes,.search_item2--btn
             {
                 width: 90%;
@@ -333,10 +336,20 @@
             }
                 .btnGuiyc
                 {
+                    max-width: 150px;
+                    width: 100%;
+                    padding: 5px;
                     background-color: rgb(12 77 161);
                     color: #fff;
                     font-size: 18px;
                     font-weight: 700;
                     text-shadow: 0 0 0.5px rgb(97, 95, 95);
-                    
+                    border-radius: 3px;
+                }
+                .btnGuiyc:hover
+                {
+                    cursor: pointer;   
+                    background-color: rgb(255, 0, 0);
+                    opacity: 0.8;   
+                    color: #000;  
                 }

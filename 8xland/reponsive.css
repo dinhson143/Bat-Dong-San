@@ -1,3 +1,10 @@
+@media (min-width: 1367px)
+{
+    .startbody {
+        max-width: 1800px;
+        width: 100%;
+    }
+}
 /* ipad pro */
 @media (max-width:1239px) and (min-width:1023px)
 {
@@ -7,18 +14,41 @@
     }
     .list_product--end >button
     {
-        margin-right: 15% !important;
         margin-top: 15px;
+    }
+    .list_product--end >button
+    {
+        font-size: 15px !important;
     }
     .list_product--end >p
     {
-        
+        font-size: 11px !important;
+        flex: 1.15 !important;
+        padding-top: 22px;
     }
     .list_formDDandinfor--title
     {
         font-size: 26px;
     }
 }
+
+
+
+
+
+@media (max-width:1023px)
+{
+    .main
+    {
+        padding:0 20px  !important;
+    }
+    .search
+    {
+        padding:0 20px  !important;
+    }
+}
+
+
 
 @media (max-width:1240px)
 {
@@ -60,6 +90,14 @@
 
 @media (max-width:740px)
 {
+    .main
+    {
+        padding:0 15px  !important;
+    }
+    .search
+    {
+        padding:0 15px  !important;
+    }
     .list_head
     {
         
@@ -73,12 +111,6 @@
     .list_nav >p
     {
         margin-right: 2px;
-    }
-    .pagination>li
-    {
-        display: block;
-        max-width: 50px;
-        width: 100%;
     }
     .list_formDDandinfor--title
     {
