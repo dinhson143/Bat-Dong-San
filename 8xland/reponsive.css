@@ -30,6 +30,15 @@
     {
         font-size: 26px;
     }
+    /* 8xland3 */
+    .listDuans_iteminfo--location>p
+    {
+        font-size: 13px !important;
+    }
+    .owl-carousel.owl-drag .owl-item
+    {
+        margin: 0 !important;
+    }
 }
 
 
@@ -45,6 +54,26 @@
     .search
     {
         padding:0 20px  !important;
+    }
+    /* 8xland3 */
+    .nav
+    {
+        display: block !important;
+    }
+    .nav_item--sort,.nav_item
+    {
+        margin: 0 !important;
+        padding: 14px 0;
+        margin-bottom: 16px !important;
+    }
+    .nav >input
+    {
+        padding-left: 15px;
+        max-height: unset !important;
+    }
+    .nav_item,.nav_item--sort
+    {
+        max-height: unset !important;
     }
 }
 
@@ -78,6 +107,24 @@
         {
             flex:  5.5 !important;
         }
+    /*8xland3  */
+    .nav >input
+    {
+        padding: 0 5px;
+        
+    }
+    .nav_item
+    {
+        
+    }
+    .listDuans_iteminfo--location>p
+    {
+        font-size: 15px !important;
+    }
+    .iconSlider__item
+    {
+        margin-right: 25px !important;
+    }
 }
 
 @media (max-width:600px)
@@ -85,6 +132,12 @@
     .list_nav >p
     {
         margin-top: 0px !important;
+    }
+    /* 8xland3 */
+    .nav >input
+    {
+        font-size: 12px;
+        padding-left: 13px !important;
     }
 }
 
@@ -154,5 +207,10 @@
         .list_sendRequest--form 
         {
             flex:  5 !important;
+        }
+        /* 8xland3 */
+        .iconSlider__item
+        {
+            margin-right: 10px !important;
         }
 }

@@ -1,0 +1,234 @@
+.main2
+{
+    padding: 0 45px;
+}
+.nav
+{
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-shadow: 0 0 0.5px #ccc;
+    margin-top: 56px;
+    margin-bottom: 40px;
+}
+    .nav >input
+    {
+        flex: 2;
+        margin-right: 15px;
+        border-radius: 5px;
+        max-height: 40px;
+        color: #ccc;
+        font-weight: unset;
+        padding-left: 15px;
+    }
+    .nav_item,.nav_item--sort
+    {
+        flex: 1;
+        margin: 0 15px 16px 0;
+        display: flex;
+        border: 1px solid #ccc;
+        justify-content: space-between;
+        border-radius: 5px;
+        max-height: 40px;
+    }
+    .nav_item
+    {
+        background-color: #f8f9fb;
+        color: #ccc;
+    }
+        .nav_item>p,.nav_item>i,.nav_item--sort>p,.nav_item--sort>i
+        {
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 15px;
+        }
+        .nav_item>i,.nav_item--sort>i
+        {
+            margin-right: 10px;
+        }
+
+.listDuan
+{
+    
+}
+    .listDuan>h2
+    {
+        color: #000;
+        font-weight: 500;
+        font-size: 35px;
+        text-shadow: 0 0 2px #ccc;
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+    .listDuans_item
+    {
+        position: relative;
+        text-shadow: 0 0 5px #ccc;
+        margin: 10px 0 ;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+        .listDuans_item--img
+        {
+            border-radius: 8px  ;
+        }
+        .listDuans_iteminfo
+        {
+        
+        }
+            .listDuans_iteminfo--title
+            {
+                display: flex;
+                justify-content: space-between;
+            }
+            .listDuans_iteminfo--title>h3
+            {
+                color: #000;
+                font-weight: 500;
+            }
+            .listDuans_iteminfo--title>i
+            {
+                margin-top: auto;
+                margin-bottom: auto;
+                font-size: 20px;
+                color: #f79859;
+            }
+            .listDuans_iteminfo--location
+            {
+                display: flex;
+                margin-bottom: 8px;
+            }
+            .listDuans_iteminfo--location>p
+            {
+                margin: 0;
+                font-size: 18px;
+                color: rgb(88, 81, 81);
+            }
+            .listDuans_iteminfo--location>i
+            {
+                margin-top: auto;
+                margin-bottom: auto;
+                padding-right: 5px;
+                color: #56505c;
+            }
+            .listDuans_iteminfo--price
+            {
+                display: flex;
+                font-size: 16px;
+            }
+            .listDuans_iteminfo--price>label,.price__value
+            {
+                color: #000;
+                font-weight: 500;
+            }
+            .listDuans_iteminfo--price>label
+            {
+                margin-right: 5px;
+            }
+            .price__value
+            {
+                margin-left: 5px;
+            }
+            .listDuans_iteminfo--note
+            {
+                position: absolute;
+                top: 5px;
+                left: 25px;
+                background-color: #000;
+                opacity: 0.7;
+                color: #fff;
+                padding: 5px;
+                border-radius: 3px;
+                text-shadow: 0 0 5px #000;
+            }
+.phantrang8x3
+{
+    display: flex;
+}
+    .phantrang8x3>p
+    {
+        padding: 0 15px;
+    }
+    .pagination>li>a, .pagination>li>span
+    {
+        border: none;
+        color: #000;
+        font-size: 15px;
+        text-shadow: 0 0 3px #ccc;
+        font-weight: 500;
+    }
+    .pagination>li>a:hover, .pagination>li>span:hover
+    {
+        text-decoration: none !important;
+        color: #fff;
+        background-color: #f3770d;
+        border-radius: 50px;
+    }
+
+/* Slider favorite */
+.itemSlider
+{
+    margin-right: 20px;
+}
+    .itemSlider>h4
+    {
+        color: #000;
+        line-height: 1.1;
+        font-weight: 600;
+    }
+    .itemSlider>img
+    {
+        border-radius: 15px;
+    }
+    .iconSlider
+    {
+        display: flex;
+        margin-top: 4px;
+    }
+        .iconBed
+        {
+            margin-top: 3px;
+        }
+        .iconSlider__item
+        {
+            display: flex;
+            margin-right: 40px;
+        }
+        .iconSlider__item>i
+        {
+            font-size: 25px;
+            color: #ccc;
+            margin-right: 5px;
+        }
+        .iconSlider__item>p
+        {
+            margin-top: 5px;
+            margin-bottom: auto;
+            font-size: 16px;
+            text-shadow: 0 0 1px #ccc;
+        }
+
+        .owl-nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .owl-nav span
+        {
+            font-size: 25px;
+            padding-bottom: 12px;
+            padding-top: 5px;
+            padding-right: 18px;
+            padding-left: 18px;
+            margin-top: auto;
+            margin-bottom: auto;
+            background-color: #fff;
+            color: #000;
+            border: 1px solid rgb(27, 26, 26);
+            font-weight: 900;
+            box-shadow: 0 0 1px #000;
+            position: relative;
+            top: -325px;
+            opacity: unset !important;
+        }
+    
