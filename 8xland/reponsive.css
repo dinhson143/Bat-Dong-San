@@ -39,11 +39,46 @@
     {
         margin: 0 !important;
     }
+    /* 8xland4 */
+    .slider4__start
+    {
+        width: 42% !important;
+    }
+    .owl-nav span
+    {
+        line-height: 1.7 !important;
+    }
+    .endSlider4__right--item
+    {
+        padding-bottom: 10px !important;
+    }
+    button.owl-next >span
+    {
+        margin-left: 1px;
+    }
+    .startP4__title>h1,.navP4
+    {
+        padding-left: 30px !important;
+    }
+    .gioithieu-vitri-tienich__content--item
+    {
+        font-size: 16px !important;
+    }
+    .search__SDT
+    {
+        padding: 50px 20px;
+    }
 }
 
 
 
-
+@media (max-width:1919px) and (min-width:1025px)
+{
+    .startP4__title>h1,.navP4
+    {
+        padding-left: 30px !important;
+    }
+}
 
 @media (max-width:1023px)
 {
@@ -74,6 +109,27 @@
     .nav_item,.nav_item--sort
     {
         max-height: unset !important;
+    }
+    /* 8xland4 */
+    .slider4__start
+    {
+        width: 93% !important;
+    }
+    .endSlider4
+    {
+        display: block !important;
+    }
+    button.owl-next >span
+    {
+        margin-right: -33px;
+    }
+    button.owl-prev >span
+    {
+        margin-right: 5px !important;
+    }
+    .startP4__title>h1,.navP4
+    {
+        padding-left: 0px !important;
     }
 }
 
@@ -125,9 +181,23 @@
     {
         margin-right: 25px !important;
     }
+    /* 8xland4 */
+    .owl-dots
+    {
+        display: none;
+    }
+    
 }
 
-@media (max-width:600px)
+@media (min-width:601px) and (max-width:769px)
+{
+    .slider4__start
+    {
+        margin: 0 25px !important;
+    }
+}
+
+@media (max-width:601px)
 {
     .list_nav >p
     {
@@ -138,6 +208,24 @@
     {
         font-size: 12px;
         padding-left: 13px !important;
+    }
+    /* 8xland4 */
+    button.owl-prev >span
+    {
+        margin-left: -24px !important;
+    }
+    .slider4__displayimg
+    {
+        display: block !important;
+    }
+}
+
+
+@media (min-width:415px ) and (max-width:679px)
+{
+    .gioithieu-vitri-tienich__content--item
+    {
+        font-size: 15px !important;
     }
 }
 
@@ -213,4 +301,37 @@
         {
             margin-right: 10px !important;
         }
+}
+
+
+@media (max-width:599px)
+{
+    .gioithieu-vitri-tienich__content1
+    {
+        display: block !important;
+    }
+    .tongquanduan__content--item>label
+    {
+        max-width: 89px !important;
+    }
+}
+
+
+@media (max-width:415px)
+{
+    button.owl-prev >span
+    {
+        margin-left: -32px !important;
+    }
+    button.owl-next >span
+    {
+        margin-left: -8px !important;
+    }
+}
+@media (max-width:321px)
+{
+    button.owl-next >span
+    {
+        margin-left: -12px !important;
+    }
 }
