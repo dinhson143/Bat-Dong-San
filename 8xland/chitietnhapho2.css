@@ -1,0 +1,189 @@
+.navCTNP1__search,
+.navCTNP1__dettailNav
+{
+    position: unset;
+    transform: unset;
+    margin: auto;
+    background-color: unset;
+    box-shadow: unset;
+    opacity: unset;
+}
+.navCTNP1__searchStart,
+.navCTNP1__dettailNav
+{
+    box-shadow: 0 0 5px #ccc;
+}
+.navCTNP1__searchStart--block1,
+.navCTNP1__searchStart--block
+{
+    margin: 0;
+}
+.navCTNP1__searchStart--block>h3
+{
+    margin: 10px auto;
+}
+.search_item--pro,
+.navCTNP1__dettailNav--checkbox>label
+{
+    background-color: unset;
+    text-shadow: unset;
+    color: #000;
+}
+
+@media (max-width: 1239px) and (min-width: 1023px)
+{
+    .navCTNP1__search 
+    {
+        width: 90% !important;
+        transform: unset !important;
+    }
+}
+
+/* Chi tiết nhà phố 2 */
+@media (min-width: 1367px)
+{
+    .startbody {
+        max-width: 1800px;
+        width: 100%;
+    }
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+	background-color: rgb(124, 114, 114);
+}
+.searchCTNP2
+{
+    padding-right: 5px;
+    padding-left: 45px;
+    margin-top: 28px;
+}
+.mainCTNP2
+{
+    padding-left: 5px;
+    padding-right: 45px;
+}
+    .searchBlock__sort
+    {
+        display: flex;
+        padding: 10px 20px 10px 0;
+        border: 3px solid #ccc;
+    }
+        .searchBlock__sort>p
+        {
+            margin-left: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding: 0 10px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .searchBlock__sort>i
+        {
+            font-size: 13px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        .searchBlock__list
+        {
+            border: 3px solid #ccc;
+            max-height: 1300px;
+            overflow-y: scroll;
+        }
+        
+        .searchBlock__listItem
+        {
+            margin: 10px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #ccc;
+        }
+        .searchBlock__listItem>p
+        {
+            color: #135ca7;
+            font-size: 18px;
+            font-weight: 500;
+            text-shadow: 0 0 2px #ccc;
+            /* margin: 10px 0; */
+        }
+        .searchBlock__listItemDetail
+        {
+            display: flex;
+        }
+        .searchBlock__listItemDetail>img
+        {
+            max-height: 100px;
+            max-width: 100px;
+            width: 100%;
+            height: 100%;
+        }
+        .searchBlock__listItemDetail--product
+        {
+            
+        }
+        .searchBlock__listItemDetail--product .lb
+        {
+            color: #000;
+            padding-right: 4px;
+            font-size: 15px;
+            height: max-content;
+        }
+        .searchBlock__listItemDetail--product .value
+        {
+            color: #000;
+            font-size: 16px;
+            text-shadow: 0 0 2px #ccc;
+            margin: 0 0 0 3px;
+        }
+        .searchBlock__listItemDetail--product .value__gia
+        {
+            color: red;
+            font-weight: 700;
+        }
+
+
+.mainBlock
+{
+    border: 3px solid #ccc;
+}
+.mapPosition iframe
+{ 
+    width: 100%;
+   margin: 50px 0 0 0;
+}
+.mapPosition #map
+{
+}
+.endmapPosition
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.endmapPosition__item
+{
+    display: flex;
+    font-size: 16px;
+    margin: 5px;
+}
+.endmapPosition__item--tinh
+{
+    font-weight: 600;
+    color: #2d7097;
+    margin: auto;
+    margin-right: 3px;
+}
+.endmapPosition__item--result
+{
+    margin: auto;
+}

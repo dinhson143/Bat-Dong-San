@@ -1,0 +1,67 @@
+.main4
+{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.navCTNP3
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navCTNP3__item
+{
+    flex: auto;
+}
+    .sellhire__item
+    {
+        display: flex;
+        padding: 20px;
+        height: 100%;
+        border-right: 1px solid #ccc;
+    }
+    .sellhire__itemSell,
+    .sellhire__itemHire
+    {
+        flex: 1;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 0.5;
+    }
+    .sellhire__itemSell>p,.sellhire__itemHire>p
+    {
+       text-align: center;
+       padding: 15px 20px;
+       margin: 0;
+       color: #000;
+    }
+    .sellhire__itemSell:hover,
+    .sellhire__itemHire:hover
+    {
+        border: 1px solid #2d7097;
+        cursor: pointer;
+    }
+    .sellhire__itemSell:hover p,
+    .sellhire__itemHire:hover p
+    {
+        font-weight: 700;
+        color: #2d7097;
+    }
+    .navCTNP3__itemSearch
+    {
+        display: flex;
+        margin: 20px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .navCTNP3__itemSearch input
+    {
+        margin: 0;
+        border: none;
+        background-color: unset;  
+    }
+    .navCTNP3__itemSearch i
+    {
+        margin: auto;
+        margin-left: 20px;
+    }
