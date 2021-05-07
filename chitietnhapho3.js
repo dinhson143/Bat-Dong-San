@@ -127,7 +127,7 @@ new Chart(document.getElementById("doughnut-chart"), {
     options: {
       elements: {
         center: {
-          text: "1.48 tỷ",
+          text: "",
           color: '#000', // Default is #000000
           fontStyle: 'Arial', // Default is Arial
           sidePadding: 20, // Default is 20 (as a percentage)

@@ -79,6 +79,47 @@
         display: flex;
         padding: 10px 20px 10px 0;
         border: 3px solid #ccc;
+        position: relative;
+    }
+    .sortList
+    {
+        position: absolute;
+        list-style: none;
+        top: 105%;
+        right: 3%;
+        background-color: #fff;
+        box-shadow: 0 0 5px #ccc;
+        width: 70%;
+        border-radius: 5px;
+        padding-left: 0;
+        display: none;
+    }
+    .iconup
+    {
+        display: none;
+    }
+    .sortList__item
+    {
+        padding:10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .sortList__item:hover 
+    {
+        background-color: #edf7ff;
+        cursor: pointer;
+        color: #000;
+    }
+    .searchBlock__sort:hover 
+    {
+        cursor: pointer;
+        background-color: rgb(109, 206, 85);
+    }
+    .searchBlock__sort:hover p,
+    .searchBlock__sort:hover i
+    {
+        color: #fff;
+        font-weight: 700;
     }
         .searchBlock__sort>p
         {
@@ -159,11 +200,48 @@
 .mapPosition iframe
 { 
     width: 100%;
-   margin: 50px 0 0 0;
 }
 .mapPosition #map
 {
 }
+.startmapPosition
+{
+    display: flex;
+    padding: 5px 0;
+}
+    .mapPosition__item
+    {
+        display: flex;
+        font-size: 16px;
+        padding: 5px;
+    }
+    .mapPosition__item:hover
+    {
+        background-color: #cfe5f1;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .mapPosition__item--map
+    {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .mapPosition__item--list
+    {
+        margin-right: auto;
+    }
+    .mapPosition__item i,
+    .mapPosition__item p
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+        color: #135ca7;
+    }
+    .mapPosition__item p
+    {
+        color: #000;
+        font-weight: 600;
+    }
 .endmapPosition
 {
     display: flex;

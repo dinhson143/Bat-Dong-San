@@ -211,6 +211,7 @@
 .titleChitietNP4__share
 {
     display: flex;
+    flex-wrap: wrap;
     color: #000;
     margin-bottom: 20px;
     justify-content: space-between;
@@ -221,6 +222,10 @@
     .titleChitietNP4__address
     {
         font-size: 18px;
+    }
+    .titleChitietNP4__shareSave-Link
+    {
+        flex-wrap: wrap;
     }
     .titleChitietNP4__shareSave,
     .titleChitietNP4__shareLink
@@ -310,6 +315,7 @@
     .titleChitietNP4__desLienhe
     {
         display: flex;
+        flex-wrap: wrap;
     }
     .titleChitietNP4__desLienhe p
     {
@@ -488,6 +494,7 @@
     .inforuser__Phone
     {
         display: flex;
+        flex-wrap: wrap;
         color: #fff;
         margin: 20px;
         background-color: #476fc6;
@@ -551,18 +558,19 @@
 .navSearch__list
 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 100px;
     border-bottom: 3px solid #ccc;
 }
     .navSearch__item
     {
         padding: 5px 20px;
-        flex: 1;
     }
     .navSearch__item p
     {
         text-align: center;
-        font-size: 28px;
+        font-size: 25px;
         color: #5e83d1;
         margin: 0;
     }
@@ -755,6 +763,7 @@
         color: #fff;
         text-align: center;
         padding: 10px 30px;
+        line-height: 1.2;
     }
 .bdsNoibat__listpro
 {
@@ -832,6 +841,7 @@
     margin-right: 8.3333333%;
     margin-top: 10px;
     border: 1px solid #ccc;
+    padding: 0 30px;
 }
 .itemSliderBlock
 {
@@ -840,6 +850,7 @@
     .slider2
     {
         margin-top: 20px;
+        position: relative;
     }
     .itemSlider
     {
@@ -918,6 +929,21 @@
         margin: auto;
         margin-left: 5px;
     }
+    .slider2 .owl-nav span
+    {
+        top: 45%;
+        border-radius: 50px;
+        background-color: #fff;
+        font-size: 22px;
+        height: 60px;
+        width: 50px;
+        left: 98.5%;
+        color: #000;
+    }
+    .slider2 .owl-nav span p
+    {
+        height: 50px;
+    }
 
 
 
@@ -950,3 +976,11 @@
             padding: 10px 40px 10px 0;
         }    
     }   
+    @media (min-width:430px) and (max-width:992px)
+    {
+        .navSearch__bieudoTren #doughnut-chart
+        {
+            margin-left: -20%;
+            margin-right: -20%;
+        }
+    }

@@ -44,3 +44,14 @@ btnTatca.click(function()
     $(".mainbody__all").toggle();
 })
 
+
+
+var bando = $(".mainbody__nav--itemMap p");
+
+bando.click(function()
+{
+    window.location= "http://127.0.0.1:5501/chitietnhapho2.html";
+});
+
+
+

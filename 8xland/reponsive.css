@@ -1,8 +1,71 @@
+@media (max-width:1550px)
+{
+    .navSearch__bieudoChuthich .navSearch__bieudoChuthichTren
+    {
+        display: block;
+    }
+    .navSearch__bieudoChuthichTren .navSearch__bieudoChuthich--item
+    {
+        /* text-align: -webkit-right; */
+    }
+    .navSearch__bieudoTren #doughnut-chart
+    {
+        width: 500px !important;
+       margin-top: auto;
+       margin-bottom: auto;
+    }
+    .navSearch__bieudoTren #doughnut-chart
+    {
+        margin-left: -45%;
+        margin-right: -45%;
+    }
+}
 @media (min-width: 1367px)
 {
     .startbody {
         max-width: 1800px;
         width: 100%;
+    }
+}
+@media (max-width:1367px)
+{
+    .navSearch__bieudoTren #doughnut-chart
+    {
+        margin-left: -50%;
+        margin-right: -50%;
+    }
+}
+@media (max-width:1919px)
+{
+    .navSearch__tinhlaisuat .navSearch__tinhlaisuat--item
+    {
+        display: block;
+    }
+    .navSearch__tinhlaisuat--item .navSearch__tinhlaisuat--itemGia
+    {
+        margin-left: 0;
+        width: unset;
+        padding: 5px 0;
+    }
+    .navSearch__tinhlaisuat--item .navSearch__tinhlaisuat--itemDonvi
+    {
+        padding: 5px 0;
+    }
+    .navSearch__tinhlaisuat .navSearch__tinhlaisuat--item label
+    {
+        font-size: 15px;
+    }
+    .navSearch .navSearch__Chuthich
+    {
+        display: block;
+    }
+    .navSearch__Chuthich--item
+    {
+        justify-content: center;
+    }
+    .navSearch__bieudoChuthich .navSearch__bieudoChuthichDuoi
+    {
+        display: block ;
     }
 }
 /* ipad pro */
@@ -121,11 +184,57 @@
     /* Chi tiết nhà phố 3 */
     .titleChitietNP4__desContent .titleChitietNP4__desLienhe
     {
-        display: block;
+        /* display: block; */
     }
     .titleChitietNP4__desContentDetail .titleChitietNP4__desContentDetail--item
     {
         display: block;
+    }
+    .titleChitietNP4__shareSave-Link
+    {
+        margin-top: 10px;
+    }
+    .inforuser__account .inforuser__accountName h4
+    {
+        font-size: 26px;
+    }
+    .inforuser__account .inforuser__accountName--active p
+    {
+        font-size: 10px;
+    }
+    .inforuser__accountRate--item p
+    {
+        font-size: 13px;
+    }
+    .inforuser .inforuser__Phone a
+    {
+        margin-left: 0;
+        padding-left: 30px;
+    }
+    .navSearch .navSearch__item p
+    {
+        font-size: 18px;
+    }
+    .bdsNoibat__title h2
+    {
+        font-size: 20px;
+    }
+    .bdsNoibat__list .bdsNoibat__list--item
+    {
+        display: block;
+    }
+    .bdsNoibat__list .bdsNoibat__list--item img
+    {
+        max-width: unset;
+    }
+    .sliderChitietnhapho3 .slider2 .owl-nav span
+    {
+        left: 97%;
+    }
+    .navSearch__bieudoTren #doughnut-chart
+    {
+        margin-left: -65%;
+        margin-right: -65%;
     }
 }
 
@@ -141,6 +250,7 @@
 
 @media (max-width:1023px)
 {
+
     .main
     {
         padding:0 20px  !important;
@@ -289,6 +399,14 @@
     {
         width: 100%;
     }
+    .mainDetailnhapho .titleChitietNP4
+    {
+        padding: 0 15px;
+    }
+    .sliderChitietnhapho3 .slider2 .owl-nav span
+    {
+        left: 96%;
+    }
 }
 
 
@@ -386,18 +504,24 @@
     /* Chi tiết nhà đất 3 */
     .titleChitietNP4 .titleChitietNP4__share
     {
-        display:  block;
+        /* display:  block; */
     }
-    .titleChitietNP4__shareSave-Link .titleChitietNP4__shareSave, .titleChitietNP4__shareLink
+    .titleChitietNP4__shareSave-Link .titleChitietNP4__shareSave
     {
-        margin-top: 10px;
+        /* margin-top: 10px; */
         margin-left: 0;
     }
     .inforuser .inforuser__chat
     {
         margin: 0;
     }
+    .navSearch__tinhlaisuat .navSearch__tinhlaisuat--item
+    {
+        display: block;
+    }
 }
+
+
 
 @media (min-width:601px) and (max-width:769px)
 {
@@ -537,7 +661,7 @@
     }
     .titleChitietNP4__desContent .titleChitietNP4__desLienhe
     {
-        display: block;
+        /* display: block; */
     }
 }
 
@@ -639,6 +763,69 @@
     {
         display: block;
     }
+    .titleChitietNP4__shareSave-Link .titleChitietNP4__shareLink
+    {
+        margin-left: 10px;
+    }
+    .titleChitietNP4__shareSave-Link .titleChitietNP4__shareSave, .titleChitietNP4__shareLink
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .titleChitietNP4__map .titleChitietNP4__mapButton
+    {
+        display: block;
+        text-align: center;
+    }
+    .titleChitietNP4__mapButton--item
+    {
+        margin: 5px 0;
+    }
+    .inforuser__account .inforuser__accountName h4
+    {
+        font-size: 25px;
+    }
+    .inforuser__account .inforuser__accountName--active p
+    {
+        font-size: 8px;
+    }
+    .inforuser__accountRate--item p
+    {
+        font-size: 13px;
+    }
+    .inforuser .inforuser__Phone a {
+        margin-left: 0;
+        padding-left: 30px;
+    }
+    .searchDetailnhapho .navSearch
+    {
+        margin: 0 5px;
+    }
+    .navSearch .navSearch__item p
+    {
+        font-size: 18px;
+    }
+    .bdsNoibat__title h2
+    {
+        font-size: 20px;
+    }
+    .bdsNoibat__list .bdsNoibat__list--item
+    {
+        display: block;
+    }
+    .bdsNoibat__list .bdsNoibat__list--item img
+    {
+        max-width: unset;
+    }
+    .row .sliderChitietnhapho3
+    {
+        margin-left: 4.333333%;
+        margin-right: 4.33333%;
+    }
+    .sliderChitietnhapho3 .slider2 .owl-nav span
+    {
+        left: 95%;
+    }
 }
 
 
@@ -658,6 +845,14 @@
         margin-left: 15px;
         font-size: 16px;
     }
+    .titleChitietNP4__shareSave-Link .titleChitietNP4__shareLink
+    {
+        margin-left: 0;
+    }
+    .mapPosition .startmapPosition
+    {
+        display: block;
+    }
 }
 @media (max-width:321px)
 {
@@ -674,5 +869,41 @@
     .mainbody__allItemDetail .mainbody__allItemDetail--navEndUser > img
     {
         margin-left: 0px;
+    }
+    .inforuser__account .inforuser__accountName h4
+    {
+        font-size: 15px;
+    }
+    .inforuser__account .inforuser__accountName--active p
+    {
+        font-size: 7px;
+    }
+    .inforuser__accountRate--item p
+    {
+        font-size: 13px;
+    }
+    .inforuser .inforuser__account>i
+    {
+        font-size: 15px;
+    }
+    .inforuser__accountRate--item p
+    {
+        font-size: 10px;
+    }
+    .inforuser .inforuser__Phone a {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    .inforuser .inforuser__Phone i
+    {
+        padding: 0 10px 0 15px;
+    }
+    .navSearch .navSearch__item p
+    {
+        font-size: 16px;
+    }
+    .sliderChitietnhapho3 .sliderChitietnhapho3__xemAll
+    {
+        font-size: 15px;
     }
 }
