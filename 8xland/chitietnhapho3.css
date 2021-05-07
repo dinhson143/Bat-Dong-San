@@ -46,6 +46,14 @@
         font-weight: 700;
         color: #2d7097;
     }
+    .navCTNP3__item--select
+    {
+        /* max-width: 200px; */
+    }
+    .searchCTNP3,.navCTNP3__item--select
+    {
+        border-right: 1px solid #ccc;
+    }
     .navCTNP3__itemSearch
     {
         display: flex;
@@ -58,10 +66,887 @@
     {
         margin: 0;
         border: none;
-        background-color: unset;  
+        background-color: unset;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     .navCTNP3__itemSearch i
     {
         margin: auto;
         margin-left: 20px;
+        margin-right: 20px;
     }
+    .navCTNP3__itemSl
+    {
+        background-color: unset;
+        border: unset;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    .navCTNP3__itemAll p
+    {
+        margin: 0 20px 20px 20px;
+        font-size: 16px;
+    }
+    .navCTNP3__itemFilter
+    {
+        display: flex;
+        border-right: 1px solid #ccc;
+    }
+    .navCTNP3__itemFilter p
+    {
+        margin: auto;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+    .navCTNP3__itemFilter i
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        font-size: 16px;
+    }
+    .navCTNP3__itemtimkiem
+    {
+        
+    }
+    .navCTNP3__itemtimkiem p
+    {
+        margin-bottom: 0;
+        font-size: 16px;
+        text-align: center;
+        transform: translate(0%,50%);
+        padding: 10px;
+        background-color: #2d7097;
+        color: #fff;
+        font-weight: 700;
+        margin: 0 30px;
+        border-radius: 5px;
+    }
+    .mainbody__link
+    {
+        margin: 0;
+        font-weight: unset;
+        color: rgb(46, 42, 42);
+        padding: 0 30px;
+        flex-wrap: wrap;
+    }
+
+    .mainDetailnhapho
+    {
+        border: none;
+    }
+    .itemSlider4
+    {   
+        padding: 0 3px;
+    }
+    .slider4__start
+    {
+        width: 100%;
+        margin: 0;
+        padding: 10px 50px 10px 0;
+    }
+    button.owl-prev >span
+    {
+        margin: 0;
+        display: none;
+    }
+    .owl-nav span
+    {
+        position: absolute;
+        font-size: 35px;
+        color: rgb(173 166 166);
+        top: 0;
+        border: none;
+        background-color: #ccc;
+        max-height: 100px;
+    }
+    .owl-carousel .owl-item img
+    {
+        /* min-width: 160px; */
+    }
+    .owl-item
+    {
+        margin-right: 0 !important;
+    }
+    .imgPro img
+    {
+        width: 100%;
+        max-height: 385px;
+        height: 100%;
+    }
+.titleChitietNP4
+{
+    padding: 0 30px;
+    margin-top: -20px;
+}
+    .titleChitietNP4__price-s
+    {
+        display: flex;
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-top: 20px;
+    }
+    .titleChitietNP4__price
+    {
+        padding-right: 100px;
+    }
+    .titleChitietNP4__price label,
+    .titleChitietNP4__s label
+    {
+        font-size: 20px;
+    }
+    .titleChitietNP4__price
+    {
+        color: red;
+        font-weight: 600;
+    }
+    .titleChitietNP4__s
+    {
+        color: #000;
+        font-weight: 500;
+    }
+.titleChitietNP4__share
+{
+    display: flex;
+    color: #000;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+    .titleChitietNP4__share,
+    .titleChitietNP4__shareSave,
+    .titleChitietNP4__shareLink,
+    .titleChitietNP4__address
+    {
+        font-size: 18px;
+    }
+    .titleChitietNP4__shareSave,
+    .titleChitietNP4__shareLink
+    {
+        margin-left: 50px;
+        border: 1px solid #ccc;
+        padding: 5px;
+        border-radius: 5px;
+        text-shadow: 0 0 1px #ccc;
+    }
+    .titleChitietNP4__shareDate,
+    .titleChitietNP4__shareSave,
+    .titleChitietNP4__shareLink,
+    .titleChitietNP4__shareSave-Link,
+    .titleChitietNP4__address
+    {
+        display: flex;
+    }
+    .titleChitietNP4__shareSave:hover
+    {
+        background-color: orange;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 700;
+    }
+        .iconFace
+        {
+            color: #395b98;
+        }
+        .iconMess
+        {
+            color: #3999fb;
+        }
+        .iconSms
+        {
+            color: #2f95e6;
+        }
+        .iconLink
+        {
+            color: #ccc;
+        }
+    .titleChitietNP4__shareDate i,
+    .titleChitietNP4__shareDate p,
+    .titleChitietNP4__shareSave i,
+    .titleChitietNP4__shareSave p
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 15px;
+    }
+    .titleChitietNP4__shareLink p,
+    .titleChitietNP4__shareLink i
+    {
+        padding: 0 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .titleChitietNP4__address i,
+    .titleChitietNP4__address p
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 17px;
+        margin-left: 1px;
+        font-size: 18px;
+    }
+    .titleChitietNP4__address i
+    {
+        color: #123d65;
+    }
+    .titleChitietNP4__address p
+    {
+        color: #74a6d8;
+    }
+    .titleChitietNP4__des h3
+    {
+        color: #728ed1;
+    }
+    .titleChitietNP4__desContent
+    {
+        font-size: 20px;
+        text-shadow: 0 0 1px #ccc;
+        margin: 20px 20px 0px 20px;
+        padding: 20px 0 50px 0;
+        border-top: 1px solid #ccc;
+    }
+    .titleChitietNP4__desLienhe
+    {
+        display: flex;
+    }
+    .titleChitietNP4__desLienhe p
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .titleChitietNP4__desContent--mark
+    {
+        margin: auto 5px;
+        color: red;
+        font-weight: 500;
+    }
+    .titleChitietNP4__desContentDetail
+    {
+        /* border-bottom: 1px solid #ccc; */
+    }
+    .titleChitietNP4__desContentDetail--item
+    {
+        display: flex;
+    }
+    .titleChitietNP4__desContentDetail--child
+    {
+        display: flex;
+        font-size: 20px;
+        flex: 1;
+        padding: 10px 0;
+        color: #000;
+    }
+    .titleChitietNP4__desContentDetail
+    {
+        text-shadow: 0 0 1px #ccc;
+        margin: 20px 20px 0px 20px;
+        padding: 20px 0 100px 0;
+    }
+    .titleChitietNP4__desContentDetail--item p,
+    .titleChitietNP4__desContentDetail--item i
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 10px;
+    }
+    .titleChitietNP4__map
+    {
+       padding-top: 30px;
+       border-top: 1px solid #ccc;
+    }
+        .titleChitietNP4__map iframe
+        {
+            width: 100%;
+        }
+        .titleChitietNP4__mapButton
+        {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .titleChitietNP4__mapButton--item
+        {
+            padding: 10px 5px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .titleChitietNP4__mapButton--item p
+        {
+            margin-top: auto;
+            margin-bottom: auto;
+            color: red;
+            font-weight: 500;
+        }
+.inforuser
+{
+    padding: 30px 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+    .inforuser__account
+    {
+        display: flex;
+    }
+        .inforuser__account img
+        {
+            max-width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: 5px;
+        }
+        .inforuser__accountName--active
+        {
+            display: flex;
+        }
+        .inforuser__accountName h4
+        {
+            font-size: 30px;
+            text-align: center;
+            margin: 5px;
+        }
+        .inforuser__accountName--active i,
+        .inforuser__accountName--active p
+        {
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: 10px;
+            color: #ccc;
+            margin-right: 5px;
+        }
+        .inforuser__accountName--active p
+        {
+            font-size: 13px;
+        }
+        .inforuser__account>i
+        {
+            font-size: 25px;
+           margin-left: 50px;
+           margin-top: 5px;
+            margin-bottom: auto;
+            color: #1b91eb;
+        }
+    .inforuser__accountRate
+    {
+        display: flex;
+        padding: 30px 0;
+        border-bottom: 1px solid #ccc;
+    }
+        .inforuser__accountRate--item
+        {
+            display: flex;
+            flex: 1;
+            color: #000;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .inforuser__accountRate--item i
+        {
+            margin-right: 10px;
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: 25px;
+        }
+        .inforuser__accountRate--item p
+        {
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        .inforuser__accountRate--name i
+        {
+            color: #42a407;
+        }
+        .inforuser__accountRate--xephang i
+        {
+            color: brown;
+        }
+    .inforuser__inforRate
+    {
+        padding: 20px 0;
+        border-bottom: 1px solid #ccc;
+    }
+        .inforuser__inforRate--item
+        {
+            display: flex;
+            text-shadow: 0 0 1px #ccc;
+        }
+        .inforuser__inforRate--item label
+        {
+            font-size: 18px;
+            max-width: 130px;
+            width: 100%;
+        }
+        .inforuser__inforRate--item p
+        {
+            font-size: 18px;
+        }
+    .inforuser__Phone
+    {
+        display: flex;
+        color: #fff;
+        margin: 20px;
+        background-color: #476fc6;
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+        .inforuser__Phone i
+        {
+            margin-top: auto;
+            margin-bottom: auto;
+            padding: 0 10px 0 30px;
+        }
+        .inforuser__Phone p
+        {
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        .inforuser__Phone a
+        {
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+            font-size: 13px;
+            color: #fff;
+            text-decoration: underline;
+        }
+        .inforuser__Phone a:hover
+        {
+            color: #ccc;
+        }
+    .inforuser__chat
+    {
+        display: flex;
+        font-size: 30px;
+        margin: 0 60px;
+        padding: 5px 0;
+        border-radius: 5px;
+        border: 3px solid #c0e1ad;
+    }
+        .inforuser__chat i
+        {
+            margin: auto;
+            margin-left: 10px;
+            margin-right: 5px;
+            color: #427cbf;
+            padding: 0 10px;
+            text-align: center;
+        }
+        .inforuser__chat p
+        {
+           margin: auto;
+           margin-left: 0;
+            font-size: 25px;
+        }
+.navSearch
+{
+    margin: 0 40px;
+}
+.navSearch__list
+{
+    display: flex;
+    margin-top: 100px;
+    border-bottom: 3px solid #ccc;
+}
+    .navSearch__item
+    {
+        padding: 5px 20px;
+        flex: 1;
+    }
+    .navSearch__item p
+    {
+        text-align: center;
+        font-size: 28px;
+        color: #5e83d1;
+        margin: 0;
+    }
+    .navSearch__item:hover
+    {
+        cursor: pointer;
+        border-bottom: 5px solid #5e83d1;
+    }
+.navSearch__tinhlaisuat
+{
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    padding: 10px 25px;
+}
+.navSearch__tinhlaisuat--item
+{
+    display: flex;
+    position: relative;
+}
+#navSearch__slider
+{
+    
+}
+    .navSearch__tinhlaisuat--item label
+    {
+        flex: 1;
+        max-width: 115px;
+        width: 100%;
+        margin: auto;
+        font-size: 12px;
+    }
+    .navSearch__tinhlaisuat--item input
+    {
+        margin: auto;
+        padding: 0;
+        flex: 2;
+    }
+    .navSearch__tinhlaisuat--itemGia,
+    .navSearch__tinhlaisuat--itemDonvi
+    {
+        margin: auto;
+    }
+    .navSearch__tinhlaisuat--itemGia
+    {
+        flex: 0.5;
+        width: 130px;
+        padding: 5px 5px 5px 100px;
+        border: 1px solid #ccc;
+        margin-left: 20px;
+        border-radius: 3px;
+        box-shadow: 0 0 1px #ccc;
+    }
+    .navSearch__tinhlaisuat--itemDonvi
+    {
+        flex: 0.5;
+        padding: 5px 50px 5px 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-shadow: 0 0 1px #ccc;
+    }
+    .navSearch__tinhlaisuat--itemGia p,
+    .navSearch__tinhlaisuat--itemDonvi p
+    {
+        margin: 0;
+        text-align: center;
+    }
+    .iteminNghieng
+    {
+        text-decoration: wavy;
+    }
+    .navSearch__Chuthich
+    {
+        display: flex;
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        justify-content: space-between;
+    }
+    .navSearch__Chuthich--item
+    {
+        display: flex;
+    }
+    .navSearch__Chuthich--item i,
+    .navSearch__Chuthich--item p
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .navSearch__Chuthich--du i
+    {
+        color: #ccc;
+    }
+    .navSearch__Chuthich--deu i
+    {
+        color: #0075ff;
+    }
+.navSearch__bieudo
+{
+    border: 1px solid #ccc;
+}
+.navSearch__bieudoTren
+{
+    display: flex;
+    background-color: #f9f9f9;
+    margin: 10px;
+}
+    #doughnut-chart
+    {
+        margin-left: -35%;
+        margin-right: -35%;
+    }
+    .navSearch__bieudoChuthichTren
+    {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    .navSearch__bieudoChuthich--item
+    {
+        flex: 1;
+        padding: 0 5px;
+    }
+    .navSearch__bieudoChuthich--item label
+    {
+        color: #000;
+        font-weight: unset;
+        text-shadow: 0 0 1px #ccc;
+    }
+    .navSearch__bieudoChuthich--item p
+    {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .cantratruoc p
+    {
+        color: #1595d5;  
+    }
+    .goccantra p
+    {
+        color: #000;
+    }
+    .laicantra p
+    {
+        color: #ec5158;
+    }
+    .navSearch__bieudoChuthichDuoi
+    {
+        display: flex;
+        margin-left: 10px;
+        justify-content: space-between;
+    }
+    .navSearch__bieudoChuthichDuoi p
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 15px;
+        font-weight: 700;
+        color: #000;
+    }
+    .navSearch__bieudoChuthichDuoi h4
+    {
+        color: #1595d5;
+        font-weight: 900;
+    }
+    .navSearch__bieudoDuoi
+    {
+        margin-left: 10px;
+    }
+    .navSearch__bieudoDuoi i
+    {
+        color: #1595d5;
+        font-weight: 700;
+    }
+.noi
+{
+    margin: 50px;
+    border: 1px solid #ccc;
+}
+.bdsNoibat__title
+{
+    background-color: #2d5a9e;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+    .bdsNoibat__title h2
+    {
+        color: #fff;
+        text-align: center;
+        padding: 10px 30px;
+    }
+.bdsNoibat__listpro
+{
+    margin-top: 30px;
+    border-top: 4px solid #2d5a9e;
+}
+.bdsNoibat__list
+{
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 2px #ccc;
+}
+    .bdsNoibat__list--item
+    {
+        margin: 15px 15px 0 15px;
+        display: flex;
+    }
+    .bdsNoibat__list--item img
+    {
+        max-width: 150px;
+        width: 100%;
+        min-height: 100px;
+        margin-right: 20px;
+    }
+    .bdsNoibat__list--itemDes p
+    {
+        font-size: 18px;
+        text-shadow: 0 0 1px #ccc;
+    }
+    .bdsNoibat__list--title
+    {
+        color: #2d5a9e;
+        font-weight: 700;
+    }
+.bdsNoibat__listpro--chuyentrang
+{
+    display: flex;
+}
+    .chuyentrang__item--left
+    {
+        margin-left: auto;
+    }
+    .chuyentrang__item
+    {
+        padding: 5px 8px;
+        border: 1px solid #ccc;
+    }
+    .chuyentrang__item:hover
+    {
+        color: #fff;
+        cursor: pointer;
+        background-color: #2d5a9e;
+    }
+    .chuyentrang__item i
+    {
+        margin-left: auto;
+    }
+.noiSlider
+{
+    width: 40%;
+    border-top: 1px solid #ccc;
+    margin: auto;
+    margin-top: 20px;
+}
+    .noiSlider h3
+    {
+        color: #000;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 20px;
+    }
+.sliderChitietnhapho3
+{
+    margin-left: 8.3333333%;
+    margin-right: 8.3333333%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+.itemSliderBlock
+{
+    margin: 10px;
+}
+    .slider2
+    {
+        margin-top: 20px;
+    }
+    .itemSlider
+    {
+        border: 1px solid #ccc;
+        margin: 0;
+    }
+    .itemSlider > img
+    {
+        border-radius: 3px;
+    }
+    .itemSliderBlock h4
+    {
+        width:100%;
+        white-space: pre-wrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        color: #000;
+    }
+    .itemSlider__dientich
+    {
+        color: #ccc;
+        margin: 0;
+    }
+    .itemSlider__gia
+    {
+        color: red;
+        font-weight: 700;
+        margin: 5px 0;
+    }
+    .itemSlider__active
+    {
+        display: flex;
+        color: #ccc;
+        margin: 0;
+    }
+    .itemSlider__active i,
+    .itemSlider__active p
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 10px;
+    }
+    .itemSlider__active p
+    {
+        width:100%;
+        white-space: pre-wrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+    }
+    .sliderChitietnhapho3__xemAll
+    {
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+        color: #2d5a9e;
+        padding: 10px 0 50px 0;
+    }
+    .sliderChitietnhapho3__xemAll:hover
+    {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .sliderChitietnhapho3__xemAll p
+    {
+        margin: auto;
+        margin-right: 0;
+    }
+    .sliderChitietnhapho3__xemAll i
+    {
+        margin: auto;
+        margin-left: 5px;
+    }
+
+
+
+
+    /* responsive */
+    @media (max-width: 1239px) and (min-width: 1023px)
+    {
+        .slider4__start {
+            width: 100% !important;
+        }
+    }
+    @media (max-width: 1023px)
+    {
+        .slider4__start
+        {
+            width: 100% !important;
+        }
+    }
+    @media (min-width: 601px) and (max-width: 769px)
+    {
+        .slider4__start 
+        {
+            margin: 0 !important;
+        }
+    }  
+    @media (max-width:600px) 
+    {
+        .slider4__start
+        {
+            padding: 10px 40px 10px 0;
+        }    
+    }   

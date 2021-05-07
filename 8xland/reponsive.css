@@ -46,7 +46,7 @@
     }
     .owl-nav span
     {
-        line-height: 1.7 !important;
+        /* line-height: 1.7 !important; */
     }
     .endSlider4__right--item
     {
@@ -117,6 +117,15 @@
     .searchBlock__listItem .searchBlock__listItemDetail>img
     {
         max-width: unset;
+    }
+    /* Chi tiết nhà phố 3 */
+    .titleChitietNP4__desContent .titleChitietNP4__desLienhe
+    {
+        display: block;
+    }
+    .titleChitietNP4__desContentDetail .titleChitietNP4__desContentDetail--item
+    {
+        display: block;
     }
 }
 
@@ -344,6 +353,50 @@
     {
         font-size: 21px;
     }
+    /* chi tiet nha pho 3 */
+    .navCTNP1 .navCTNP3
+    {
+        display: block;
+    }
+    .navCTNP3__item--select .navCTNP3__itemSl,
+    .navCTNP3__item--select .navCTNP3__itemAll p
+    {
+        font-size: 18px;
+    }
+    .navCTNP3 .navCTNP3__itemtimkiem p
+    {
+        transform: unset;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .navCTNP3__itemFilter
+    {
+        padding: 20px 0;
+    }
+    .navCTNP3 .navCTNP3__itemFilter p,
+    .navCTNP3 .navCTNP3__itemFilter i
+    {
+        font-size: 20px;
+    }
+    .sellhire__itemSell>p, .sellhire__itemHire>p,
+    .navCTNP3__itemSearch input
+    {
+        font-size: 20px;
+    }
+    /* Chi tiết nhà đất 3 */
+    .titleChitietNP4 .titleChitietNP4__share
+    {
+        display:  block;
+    }
+    .titleChitietNP4__shareSave-Link .titleChitietNP4__shareSave, .titleChitietNP4__shareLink
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .inforuser .inforuser__chat
+    {
+        margin: 0;
+    }
 }
 
 @media (min-width:601px) and (max-width:769px)
@@ -482,6 +535,10 @@
     {
         width: 110%;
     }
+    .titleChitietNP4__desContent .titleChitietNP4__desLienhe
+    {
+        display: block;
+    }
 }
 
 
@@ -573,6 +630,14 @@
     .mainbody__allItemDetail .mainbody__allItemDetail--navEndUser > img
     {
         margin-left: -15px;
+    }
+    .titleChitietNP4__desContentDetail .titleChitietNP4__desContentDetail--item
+    {
+        display: block;
+    }
+    .titleChitietNP4 .titleChitietNP4__price-s
+    {
+        display: block;
     }
 }
 

@@ -36,6 +36,7 @@
     <script src="./8xland/jquery-migrate-3.1.0.min.js.download"></script>
     <script src="./8xland/ConsVar.js.download"></script>
     <script src="./8xland/bootstrap.min.js.download"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 </head>
 
 <body>
@@ -382,57 +383,57 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="navCTNP3__item">
+                            <div class="navCTNP3__item searchCTNP3">
                                 <div class="navCTNP3__itemSearch">
                                     <i class="fas fa-search"></i>
                                     <input type="text" name="" id="" placeholder="Tìm kiếm địa điểm, khu vực">
                                 </div>
                             </div>
-                            <div class="navCTNP3__item">
-                                <Select class="navCTNP3__itemSelect">
+                            <div class="navCTNP3__item navCTNP3__item--select">
+                                <Select class="navCTNP3__itemSl">
                                     <option value="">Loại nhà đất</option>
                                 </Select>
-                                <div>
+                                <div class="navCTNP3__itemAll">
                                     <p>Tất cả</p>
                                 </div>
                             </div>
-                            <div class="navCTNP3__item">
-                                <Select class="navCTNP3__itemSelect">
+                            <div class="navCTNP3__item navCTNP3__item--select">
+                                <Select class="navCTNP3__itemSl">
                                     <option value="">Khu vực</option>
                                 </Select>
-                                <div>
+                                <div class="navCTNP3__itemAll">
                                     <p>Toàn quốc</p>
                                 </div>
                             </div>
-                            <div class="navCTNP3__item">
-                                <Select class="navCTNP3__itemSelect">
+                            <div class="navCTNP3__item navCTNP3__item--select">
+                                <Select class="navCTNP3__itemSl">
                                     <option value="">Khoảng giá</option>
                                 </Select>
-                                <div>
+                                <div class="navCTNP3__itemAll">
                                     <p>Tất cả</p>
                                 </div>
                             </div>
-                            <div class="navCTNP3__item">
-                                <Select class="navCTNP3__itemSelect">
+                            <div class="navCTNP3__item navCTNP3__item--select">
+                                <Select class="navCTNP3__itemSl">
                                     <option value="">Diện tích</option>
                                 </Select>
-                                <div>
+                                <div class="navCTNP3__itemAll">
                                     <p>Tất cả</p>
                                 </div>
                             </div>
-                            <div class="navCTNP3__item">
-                                <Select class="navCTNP3__itemSelect">
+                            <div class="navCTNP3__item navCTNP3__item--select">
+                                <Select class="navCTNP3__itemSl">
                                     <option value="">Dự án</option>
                                 </Select>
-                                <div>
+                                <div class="navCTNP3__itemAll">
                                     <p>Tất cả</p>
                                 </div>
                             </div>
-                            <div class="navCTNP3__item">
+                            <div class="navCTNP3__item navCTNP3__itemFilter">
                                 <p>Lọc thêm</p>
                                 <i class="fas fa-sliders-h"></i>
                             </div>
-                            <div class="navCTNP3__item">
+                            <div class="navCTNP3__item navCTNP3__itemtimkiem">
                                 <p>Tìm Kiếm</p>
                             </div>
                         </div>
@@ -440,209 +441,433 @@
                 </div>
                 <div class="startbody">
                     <div class="row">
+                        <div class="mainbody__link">
+                            <p class="mainbody__link--page">8Xland</p>
+                            <p class="mainbody__link--noi">></p>
+                            <p class="mainbody__link--page">BDS Nhà phố</p>
+                            <p class="mainbody__link--noi">></p>
+                            <p class="mainbody__link--page">TP HCM</p>
+                            <p class="mainbody__link--noi">></p>
+                            <p class="mainbody__link--page">Quận 1</p>
+                            <p class="mainbody__link--noi">></p>
+                            <p class="mainbody__link--page">2MT Dinh Tien Hoang Quận 1 79m2</p>
+                        </div>
                         <div class="col-md-1 leftAds">
                             <img src="./img/cenHousing.jpg" alt="">
                         </div>
                         <div class="col-md-10 mainbody">
-                            <div class="mainbody__link">
-                                <p class="mainbody__link--page">8Xland</p>
-                                <p class="mainbody__link--noi">></p>
-                                <p class="mainbody__link--page">BDS Nhà phố</p>
-                                <p class="mainbody__link--noi">></p>
-                                <p class="mainbody__link--page">Toàn quốc</p>
-                            </div>
-                            <div class="main col-md-9 mainDetailnhapho">
-                                <div class="mainbody__nav">
-                                    <div class="mainbody__nav--item mainbody__nav--itemAll">
-                                        <p>Tất cả</p>
-                                    </div>
-                                    <div class="mainbody__nav--item">
-                                        <p>Cá nhân</p>
-                                    </div>
-                                    <div class="mainbody__nav--item">
-                                        <p>Môi giới</p>
-                                    </div>
-                                    <div class="mainbody__nav--item">
-                                        <p>Bản đồ</p>
-                                    </div>
-                                    <div class="mainbody__nav--itemSort">
-                                        <p>Sắp xếp</p>
-                                        <i class="fas fa-sort-down"></i>
-                                        <ul class="mainbody__nav--itemSortdetail">
-                                                <li>Thông thường</li>
-                                                <li>Tin mới nhất</li>
-                                                <li>Giá thấp đến cao</li>
-                                                <li>Giá cao đến thấp</li>
-                                                <li>Diện tích bé đến lớn</li>
-                                                <li>Diện tích lớn đến bé</li>
-                                        </ul>
-                                    </div>
+                            <div class="main col-md-7 mainDetailnhapho">
+                                <div class="imgPro">
+                                    <img src="./img/product8x3_1.jpg" alt="">
                                 </div>
-                                <div class="mainbody__all">
-                                    <div class="mainbody__allItem col-md-12">
-                                        <div class="mainbody__allItem--img col-md-3">
-                                            <img class="" src="./imgProduct/itemNhapho_all.jpg" alt="">
+                                <div class="slider4__start">
+                                    <div class="owl-carousel slider">
+                                        <div class="itemSlider4">
+                                            <img src="./imgProduct/pro3.jpg" alt="">
                                         </div>
-                                        <div class="mainbody__allItemDetail col-md-9">
-                                            <h3 class="mainbody__allItemDetail--name">2MT Dinh Tien Hoang Quận 1 79m2</h3>
-                                            <p class="mainbody__allItemDetail--des">Thanh toán trước 2.5 tỷ - sở hữu nhà phố không gian biệt thự tại đảo Phượng Hoàng. Aqua City Đồng Nai. Vị trí mặt tiền đường Hương Lộ 2.</p>
-                                            <div class="mainbody__allItemDetail--address">
-                                                <p> Đường Ngô Quyền, Xã Long Hưng, Thành phố Biên Hòa, Tỉnh Đồng Nai.</p>
-                                                <i>5 ngày trước</i>
-                                            </div>
-                                            <div class="mainbody__allItemDetail--navEnd">
-                                                <h3>Thỏa Thuận</h3>
-                                                <p>200 m2</p>
-                                                <div class="mainbody__allItemDetail--navEndright">
-                                                    <div class="mainbody__allItemDetail--navEndUser">
-                                                        <img src="./imgProduct/user1.jpg" alt="">
-                                                        <p>Phạm Đình Khang</p>
-                                                    </div>
-                                                    <p>|</p>
-                                                    <div class="mainbody__allItemDetail--navEndChat">
-                                                        <i class="fab fa-facebook-messenger"></i>
-                                                        <p>Chat ngay</p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="itemSlider4">
+                                            <img src="./imgProduct/pro2.jpg" alt="">
                                         </div>
-                                    </div>
-                                    <div class="mainbody__allItem col-md-12">
-                                        <div class="mainbody__allItem--img col-md-3">
-                                            <img class="" src="./imgProduct/itemNhapho_all.jpg" alt="">
+                                        <div class="itemSlider4">
+                                            <img src="./imgProduct/pro1.jpg" alt="">
                                         </div>
-                                        <div class="mainbody__allItemDetail col-md-9">
-                                            <h3 class="mainbody__allItemDetail--name">2MT Dinh Tien Hoang Quận 1 79m2</h3>
-                                            <p class="mainbody__allItemDetail--des">Thanh toán trước 2.5 tỷ - sở hữu nhà phố không gian biệt thự tại đảo Phượng Hoàng. Aqua City Đồng Nai. Vị trí mặt tiền đường Hương Lộ 2.</p>
-                                            <div class="mainbody__allItemDetail--address">
-                                                <p> Đường Ngô Quyền, Xã Long Hưng, Thành phố Biên Hòa, Tỉnh Đồng Nai.</p>
-                                                <i>5 ngày trước</i>
-                                            </div>
-                                            <div class="mainbody__allItemDetail--navEnd">
-                                                <h3>Thỏa Thuận</h3>
-                                                <p>200 m2</p>
-                                                <div class="mainbody__allItemDetail--navEndright">
-                                                    <div class="mainbody__allItemDetail--navEndUser">
-                                                        <img src="./imgProduct/user1.jpg" alt="">
-                                                        <p>Phạm Đình Khang</p>
-                                                    </div>
-                                                    <p>|</p>
-                                                    <div class="mainbody__allItemDetail--navEndChat">
-                                                        <i class="fab fa-facebook-messenger"></i>
-                                                        <p>Chat ngay</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="mainbody__allItem col-md-12">
-                                        <div class="mainbody__allItem--img col-md-3">
-                                            <img class="" src="./imgProduct/itemNhapho_all.jpg" alt="">
-                                        </div>
-                                        <div class="mainbody__allItemDetail col-md-9">
-                                            <h3 class="mainbody__allItemDetail--name">2MT Dinh Tien Hoang Quận 1 79m2</h3>
-                                            <p class="mainbody__allItemDetail--des">Thanh toán trước 2.5 tỷ - sở hữu nhà phố không gian biệt thự tại đảo Phượng Hoàng. Aqua City Đồng Nai. Vị trí mặt tiền đường Hương Lộ 2.</p>
-                                            <div class="mainbody__allItemDetail--address">
-                                                <p> Đường Ngô Quyền, Xã Long Hưng, Thành phố Biên Hòa, Tỉnh Đồng Nai.</p>
-                                                <i>5 ngày trước</i>
-                                            </div>
-                                            <div class="mainbody__allItemDetail--navEnd">
-                                                <h3>Thỏa Thuận</h3>
-                                                <p>200 m2</p>
-                                                <div class="mainbody__allItemDetail--navEndright">
-                                                    <div class="mainbody__allItemDetail--navEndUser">
-                                                        <img src="./imgProduct/user1.jpg" alt="">
-                                                        <p>Phạm Đình Khang</p>
-                                                    </div>
-                                                    <p>|</p>
-                                                    <div class="mainbody__allItemDetail--navEndChat">
-                                                        <i class="fab fa-facebook-messenger"></i>
-                                                        <p>Chat ngay</p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="itemSlider4">
+                                            <img src="./img/product8x3_1.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="list_phantrang ">
-                                    <nav aria-label="Page navigation example">
-                                        <ul class="pagination">
-                                            <li class="page-item">
-                                                <a class="page-link" href="#" aria-label="Previous">
-                                                   <p>Trang</p>
-                                                </a>
-                                            </li>
-                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">...</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">135</a></li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#" aria-label="Next">
-                                                    <span aria-hidden="true">&raquo;</span>
-                                                    <span class="sr-only">Next</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                <div class="titleChitietNP4">
+                                    <h2>Nhà 2 mặt tiền Đinh Tiên Hoàng Quận 1 79m2</h2>
+                                    <div class="titleChitietNP4__price-s">
+                                        <p class="titleChitietNP4__price">
+                                            <label for="">Giá:</label>
+                                            22 tỷ
+                                        </p>
+                                        <p class="titleChitietNP4__s">
+                                            <label for="">Diện tích:</label>
+                                            79 m2
+                                        </p>
+                                    </div>
+                                    <div class="titleChitietNP4__share">
+                                        <div class="titleChitietNP4__shareDate">
+                                            <i class="far fa-clock"></i>
+                                            <p>12/12/2020</p>
+                                        </div>
+                                        <div class="titleChitietNP4__shareSave-Link">
+                                            <div class="titleChitietNP4__shareSave">
+                                                <p>Lưu tin</p>
+                                                <i class="far fa-heart"></i>
+                                            </div>
+                                            <div class="titleChitietNP4__shareLink">
+                                                <p>Chia sẻ</p>
+                                                <i class="fab fa-facebook iconFace"></i>
+                                                <i class="fab fa-facebook-messenger iconMess"></i>
+                                                <i class="fas fa-sms iconSms"></i>
+                                                <i class="fas fa-paperclip iconLink"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="titleChitietNP4__address">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <p>Đường Đinh Tiên Hoàng, Phường Đa Kao, Quận 1, Tp Hồ Chí Minh</p>
+                                    </div>
+                                    <div class="titleChitietNP4__des">
+                                        <h3>Thông tin mô tả</h3>
+                                        <div class="titleChitietNP4__desContent">
+                                            <p>-  Chủ nhà kẹt tiền cần bán gấp nhà 2MT Đinh Tiên Hoàng Quận 1 đang kinh doanh chuỗi cà phê.</p>
+                                            <p>-  Diện tích 5.34x17 công nhận 74.9 thực tế 79 </p>
+                                            <p>-  Kết cấu Trệt 2 lầu </p>
+                                            <p>-  Hợp đồng thuê với công ty nước ngoài 10 năm mỗi tháng 66 triệu tăng hằng năm.</p>
+                                            <p>-  Giá 22 tỷ có thể thương lượng</p>
+                                            <div class="titleChitietNP4__desLienhe">
+                                                <p>-  Liện hệ: </p>
+                                                <p class="titleChitietNP4__desContent--mark">0902879***</p>
+                                                <p>gặp</p>
+                                                <p class="titleChitietNP4__desContent--mark">Anh Nguyên</p>
+                                                <p>để trực tiếp xem nhà</p>
+                                            </div>
+                                        </div>
+                                        <div class="titleChitietNP4__desContentDetail">
+                                            <div class="titleChitietNP4__desContentDetail--item">
+                                                <div class="titleChitietNP4__desContentDetail--child">
+                                                    <i class="fas fa-archway"></i>
+                                                    <p>Diện tích: 225 m2</p>
+                                                </div>
+                                                <div class="titleChitietNP4__desContentDetail--child">
+                                                    <i class="fas fa-hand-holding-usd"></i>
+                                                    <p>Giá/m2: 120 triệu/m2</p>
+                                                </div>
+                                            </div>
+                                            <div class="titleChitietNP4__desContentDetail--item">
+                                                <div class="titleChitietNP4__desContentDetail--child">
+                                                    <i class="fas fa-archway"></i>
+                                                    <p>Chiều ngang: 11 m</p>
+                                                </div>
+                                                <div class="titleChitietNP4__desContentDetail--child">
+                                                    <i class="fas fa-hand-holding-usd"></i>
+                                                    <p>Loại hình nhà ở: Nhà ngõ, hẻm</p>
+                                                </div>
+                                            </div>
+                                            <div class="titleChitietNP4__desContentDetail--item">
+                                                <div class="titleChitietNP4__desContentDetail--child">
+                                                    <i class="fas fa-archway"></i>
+                                                    <p>Giấy tờ pháp lý: đã có sổ</p>
+                                                </div>
+                                                <div class="titleChitietNP4__desContentDetail--child">
+                                                    <i class="fas fa-hand-holding-usd"></i>
+                                                    <p>Số phòng ngủ: 4 phòng</p>
+                                                </div>
+                                            </div>
+                                            <div class="titleChitietNP4__desContentDetail--item">
+                                                <div class="titleChitietNP4__desContentDetail--child">
+                                                    <i class="fas fa-archway"></i>
+                                                    <p>Đặc điểm nhà/đất: Nở hậu</p>
+                                                </div>
+                                                <div class="titleChitietNP4__desContentDetail--child">
+                                                    <i class="fas fa-hand-holding-usd"></i>
+                                                    <p>Số phòng vệ sinh: 4 phòng</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="titleChitietNP4__map">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.301567153621!2d106.7011230147261!3d10.788199192313504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4ad8d3ec01%3A0x5ced0f0130576fba!2zMkEsIDcgTmd1eeG7hW4gVGjhu4sgTWluaCBLaGFpLCBC4bq_biBOZ2jDqSwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1620352048704!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        <div class="titleChitietNP4__mapButton">
+                                            <div class="titleChitietNP4__mapButton--item">
+                                                <p>Báo tin không hợp lệ</p>
+                                            </div>
+                                            <div class="titleChitietNP4__mapButton--item">
+                                                <p>Báo tin đã bán</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="search col-md-3 searchDetailnhapho">
-                                <div class="submitInfor">
-                                    <img src="./img/imgNen.jpg" alt="">
-                                    <div class="submitInforDetail">
-                                        <h2>Bạn chưa tìm được bất động sản ưng ý</h2>
-                                        <p>Hãy để lại thông tin chúng tôi sẽ giúp bạn tìm ngôi nhà mơ ước</p>
-                                        <input type="text" name="" id="" placeholder="Họ và tên">
-                                        <input type="text" name="" id="" placeholder="Số điện thoại">
-                                        <input type="text" name="" id="" placeholder="Ngân sách">
-                                        <div class="submitInfor__btn">GỬI NGAY</div>
+                            <div class="search col-md-5 searchDetailnhapho">
+                                <div class="inforuser">
+                                    <div class="inforuser__account">
+                                        <img src="./imgProduct/user1.jpg" alt="">
+                                        <div class="inforuser__accountName">
+                                            <h4>Mai San</h4>
+                                            <div class="inforuser__accountName--active">
+                                                <i class="fas fa-circle"></i>
+                                                <p>Hoạt động 17 giờ trước</p>
+                                            </div>
+                                        </div>
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div class="inforuser__accountRate">
+                                        <div class="inforuser__accountRate--item inforuser__accountRate--name">
+                                            <i class="fas fa-briefcase"></i>
+                                            <p>Nhà môi giới</p>
+                                        </div>
+                                        <div class="inforuser__accountRate--item inforuser__accountRate--xephang">
+                                            <i class="fas fa-book-reader"></i>
+                                            <p>Xếp hạng</p>
+                                        </div>
+                                    </div>
+                                    <div class="inforuser__inforRate">
+                                        <div class="inforuser__inforRate--item">
+                                            <label for="">Đánh giá:</label>
+                                            <p>Đang cập nhật</p>
+                                        </div>
+                                        <div class="inforuser__inforRate--item">
+                                            <label for="">Tham gia từ:</label>
+                                            <p>1/1/2021t</p>
+                                        </div>
+                                        <div class="inforuser__inforRate--item">
+                                            <label for="">Số tin đăng:</label>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <div class="inforuser__Phone">
+                                        <i class="fas fa-phone-square-alt"></i>
+                                        <p>0938***</p>
+                                        <a href="">Bấm để hiện thị số</a>
+                                    </div>
+                                    <div class="inforuser__chat">
+                                        <i class="fab fa-facebook-messenger"></i>
+                                        <p>Chat với người đăng tin</p>
                                     </div>
                                 </div>
-                                <h2 class="titleBannha">Bán nhà phố 2021</h2>
-                                <div class="allCity">
-                                    <div class="allCity__item">
-                                        <a href="">Hà Nội</a>
-                                        <div class="allCity__item--result">(<p>21929</p>)</div>
+                                <div class="navSearch">
+                                    <div class="navSearch__list">
+                                        <div class="navSearch__item">
+                                            <p>Tính lãi suất</p>
+                                        </div>
+                                        <div class="navSearch__item">
+                                            <p>Phong thủy</p>
+                                        </div>
+                                        <div class="navSearch__item">
+                                            <p>Xem tuổi</p>
+                                        </div>
                                     </div>
-                                    <div class="allCity__item">
-                                        <a href="">TP. Hồ Chí Minh</a>
-                                        <div class="allCity__item--result">(<p>21929</p>)</div>
+                                    <div class="navSearch__tinhlaisuat">
+                                        <div class="navSearch__tinhlaisuat--item">
+                                            <label for="">Giá trị nhà đất</label>
+                                            <input type="range" min="0" max="1000" value="100" step="50" id="navSearch__slider">
+                                            <div id="navSearch__selector">
+                                                <div class="selectBtn"></div>
+                                            </div>
+                                            <div class="navSearch__tinhlaisuat--itemGia">
+                                                <p>950</p>
+                                            </div>
+                                            <div class="navSearch__tinhlaisuat--itemDonvi iteminNghieng">
+                                                <p><i>Triệu</i></p>
+                                            </div>
+                                        </div>
+                                        <div class="navSearch__tinhlaisuat--item">
+                                            <label for="">Số lần vay</label>
+                                            <input type="range" min="0" max="1000" value="100" step="50" id="navSearch__slider">
+                                            <div id="navSearch__selector">
+                                                <div class="selectBtn"></div>
+                                            </div>
+                                            <div class="navSearch__tinhlaisuat--itemGia">
+                                                <p>665</p>
+                                            </div>
+                                            <div class="navSearch__tinhlaisuat--itemDonvi">
+                                                <p>70  %</p>
+                                            </div>
+                                        </div>
+                                        <div class="navSearch__tinhlaisuat--item">
+                                            <label for="">Thời gian vay</label>
+                                            <input type="range" min="0" max="1000" value="100" step="50" id="navSearch__slider">
+                                            <div id="navSearch__selector">
+                                                <div class="selectBtn"></div>
+                                            </div>
+                                            <div class="navSearch__tinhlaisuat--itemGia">
+                                                <p>10</p>
+                                            </div>
+                                            <div class="navSearch__tinhlaisuat--itemDonvi iteminNghieng">
+                                                <p><i>Năm</i></p>
+                                            </div>
+                                        </div>
+                                        <div class="navSearch__tinhlaisuat--item">
+                                            <label for="">Lãi suất</label>
+                                            <input type="range" min="0" max="1000" value="100" step="50" id="navSearch__slider">
+                                            <div id="navSearch__selector">
+                                                <div class="selectBtn"></div>
+                                            </div>
+                                            <div class="navSearch__tinhlaisuat--itemGia">
+                                                <p>8</p>
+                                            </div>
+                                            <div class="navSearch__tinhlaisuat--itemDonvi iteminNghieng">
+                                                <p><i>%  năm</i></p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="allCity__item">
-                                        <a href="">Long An</a>
-                                        <div class="allCity__item--result">(<p>21929</p>)</div>
+                                    <div class="navSearch__Chuthich">
+                                        <div class="navSearch__Chuthich--item navSearch__Chuthich--du">
+                                            <i class="fas fa-circle"></i>
+                                            <p>Số tiền trả theo dư nợ giảm dần</p>
+                                        </div>
+                                        <div class="navSearch__Chuthich--item navSearch__Chuthich--deu">
+                                            <i class="fas fa-dot-circle"></i>
+                                            <p>Số tiền trả đều hàng tháng</p>
+                                        </div>
                                     </div>
-                                    <div class="allCity__item">
-                                        <a href="">Đồng Nai</a>
-                                        <div class="allCity__item--result">(<p>21929</p>)</div>
+                                    <div class="navSearch__bieudo">
+                                        <div class="navSearch__bieudoTren">
+                                            <canvas id="doughnut-chart" width="1500" height="450"></canvas>
+                                           <div class="navSearch__bieudoChuthich">
+                                               <div class="navSearch__bieudoChuthichTren">
+                                                   <div class="navSearch__bieudoChuthich--item cantratruoc">
+                                                       <label for="">Cần trả trước</label>
+                                                       <p>285,000,000 VND</p>
+                                                   </div>
+                                                   <div class="navSearch__bieudoChuthich--item goccantra">
+                                                        <label for="">Góc cần trả</label>
+                                                        <p>665,000,000 VND</p>
+                                                    </div>
+                                                    <div class="navSearch__bieudoChuthich--item laicantra">
+                                                        <label for="">Lãi cần trả</label>
+                                                        <p>532,000,000 VND</p>
+                                                    </div>
+                                               </div>
+                                               <div class="navSearch__bieudoChuthichDuoi">
+                                                   <p>Số tiền tháng đầu</p>
+                                                   <h4>9,975,000 VND</h4>
+                                               </div>
+                                            </div>
+                                       </div>
+                                       <div class="navSearch__bieudoDuoi">
+                                            <i>Xem lịch trả nợ từng tháng</i>
+                                            <p>(*) Công cụ thanh toán trên website chỉ mang tính hcat61 tham khảo</p>
+                                         </div>
                                     </div>
-                                    <div class="allCity__item">
-                                        <a href="">Bình Phước</a>
-                                        <div class="allCity__item--result">(<p>21929</p>)</div>
+                                    <div class="noi"></div>
+                                    <div class="bdsNoibat">
+                                        <div class="bdsNoibat__title">
+                                            <h2>BẤT ĐỘNG SẢN NỔI BẬT</h2>
+                                        </div>
+                                        <div class="bdsNoibat__listpro">
+                                            <div class="bdsNoibat__list">
+                                                <div class="bdsNoibat__list--item">
+                                                    <img src="./imgProduct/pro1.jpg" alt="">
+                                                    <div class="bdsNoibat__list--itemDes">
+                                                        <p class="bdsNoibat__list--title">
+                                                            Royal Dream City
+                                                        </p>
+                                                        <p>Tiến độ dự án cập nhật ngày</p>
+                                                        <p>05/01/2021</p>
+                                                    </div>
+                                                </div>
+                                                <div class="bdsNoibat__list--item">
+                                                    <img src="./imgProduct/pro1.jpg" alt="">
+                                                    <div class="bdsNoibat__list--itemDes">
+                                                        <p class="bdsNoibat__list--title">
+                                                            Royal Dream City
+                                                        </p>
+                                                        <p>Tiến độ dự án cập nhật ngày</p>
+                                                        <p>05/01/2021</p>
+                                                    </div>
+                                                </div>
+                                                <div class="bdsNoibat__list--item">
+                                                    <img src="./imgProduct/pro1.jpg" alt="">
+                                                    <div class="bdsNoibat__list--itemDes">
+                                                        <p class="bdsNoibat__list--title">
+                                                            Royal Dream City
+                                                        </p>
+                                                        <p>Tiến độ dự án cập nhật ngày</p>
+                                                        <p>05/01/2021</p>
+                                                    </div>
+                                                </div>
+                                                <div class="bdsNoibat__list--item">
+                                                    <img src="./imgProduct/pro1.jpg" alt="">
+                                                    <div class="bdsNoibat__list--itemDes">
+                                                        <p class="bdsNoibat__list--title">
+                                                            Royal Dream City
+                                                        </p>
+                                                        <p>Tiến độ dự án cập nhật ngày</p>
+                                                        <p>05/01/2021</p>
+                                                    </div>
+                                                </div>
+                                                <div class="bdsNoibat__list--item">
+                                                    <img src="./imgProduct/pro1.jpg" alt="">
+                                                    <div class="bdsNoibat__list--itemDes">
+                                                        <p class="bdsNoibat__list--title">
+                                                            Royal Dream City
+                                                        </p>
+                                                        <p>Tiến độ dự án cập nhật ngày</p>
+                                                        <p>05/01/2021</p>
+                                                    </div>
+                                                </div>
+                                                <div class="bdsNoibat__listpro--chuyentrang">
+                                                    <div class="chuyentrang__item chuyentrang__item--left">
+                                                        <i class="fas fa-chevron-left"></i>
+                                                    </div>
+                                                    <div class="chuyentrang__item">
+                                                        <i class="fas fa-chevron-right"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="allCity__item">
-                                        <a href="">Bà Rịa Vũng Tàu</a>
-                                        <div class="allCity__item--result">(<p>21929</p>)</div>
-                                    </div>
-                                    <div class="allCity__item">
-                                        <a href="">Lâm Đồng</a>
-                                        <div class="allCity__item--result">(<p>21929</p>)</div>
-                                    </div>
-                                    <div class="allCity__item">
-                                        <a href="">Khánh Hòa</a>
-                                        <div class="allCity__item--result">(<p>21929</p>)</div>
-                                    </div>
-                                </div>
-                                <div class="bannerAds">
-                                    <img src="./img/bannerAds.PNG" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-1 rightAds">
                             <img src="./img/cenHousing.jpg" alt="">
                         </div>
+                    </div> 
+                </div> 
+                <div class="noiSlider">
+                    <h3>Bất Động Sản Cùng Khu Vực</h3>
+                </div>
+                <div class="sliderChitietnhapho3 col-md-10">
+                    <div class="owl-carousel slider2">
+                        <div class="itemSlider">
+                             <div class="itemSliderBlock">
+                                 <img src="./img/product8x3_1.jpg" alt="">
+                                 <h4>Đất Đông Tăng long full thổ cư - Giá ưu đãi</h4>
+                                 <p class="itemSlider__dientich">110 m2</p>
+                                 <p class="itemSlider__gia">2,1 tỷ</p>
+                                 <div class="itemSlider__active">
+                                     <i class="fas fa-briefcase"></i>
+                                     <p>4 phút trước - Tp Hồ Chí Minh</p>
+                                 </div>
+                             </div>
+                        </div>
+                        <div class="itemSlider">
+                            <div class="itemSliderBlock">
+                                <img src="./img/product8x3_1.jpg" alt="">
+                                <h4>Đất Đông Tăng long full thổ cư - Giá ưu đãi</h4>
+                                <p class="itemSlider__dientich">110 m2</p>
+                                <p class="itemSlider__gia">2,1 tỷ</p>
+                                <div class="itemSlider__active">
+                                    <i class="fas fa-briefcase"></i>
+                                    <p>4 phút trước - Tp Hồ Chí Minh</p>
+                                </div>
+                            </div>
+                       </div>
+                       <div class="itemSlider">
+                            <div class="itemSliderBlock">
+                                <img src="./img/product8x3_1.jpg" alt="">
+                                <h4>Đất Đông Tăng long full thổ cư - Giá ưu đãi</h4>
+                                <p class="itemSlider__dientich">110 m2</p>
+                                <p class="itemSlider__gia">2,1 tỷ</p>
+                                <div class="itemSlider__active">
+                                    <i class="fas fa-briefcase"></i>
+                                    <p>4 phút trước - Tp Hồ Chí Minh</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="itemSlider">
+                            <div class="itemSliderBlock">
+                                <img src="./img/product8x3_1.jpg" alt="">
+                                <h4>Đất Đông Tăng long full thổ cư - Giá ưu đãi</h4>
+                                <p class="itemSlider__dientich">110 m2</p>
+                                <p class="itemSlider__gia">2,1 tỷ</p>
+                                <div class="itemSlider__active">
+                                    <i class="fas fa-briefcase"></i>
+                                    <p>4 phút trước - Tp Hồ Chí Minh</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sliderChitietnhapho3__xemAll">
+                        <p>Xem thêm 458.096 tin khác</p>
+                        <i class="fas fa-chevron-right"></i>
                     </div>
                 </div>                           
             </div>
@@ -865,13 +1090,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-
+    <script src="./skillbar.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="./slider.js"></script>
+    <script src="./slider2.js"></script>
 
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <script src="jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="./slider4.js"></script>
+    <script src="./chitietnhapho3.js"></script>
 
 </body>
 <div id="tiptip_holder" style="max-width:200px;">
